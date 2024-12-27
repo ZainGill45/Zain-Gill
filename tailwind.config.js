@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 
-export default {
-  content: ["./**/*.php", "./src/**/*.{js,ts,jsx,tsx}"],
+module.exports = {
+  content: [
+    "./src/**/*.{html,php,js}", // Include all PHP, HTML, and JS files in the src directory
+  ],
   theme: {
     extend: {},
   },
