@@ -24,6 +24,11 @@
             flex-direction: column;
             width: 512px;
         }
+
+        form button {
+            width: 150px;
+            margin-inline: auto;
+        }
     </style>
 </head>
 
@@ -31,9 +36,9 @@
     <main>
         <h1>Sign In</h1>
         <form>
-            <label for="email">Email:</label>
+            <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
-            <label for="password">Password:</label>
+            <label for="password">Password</label>
             <input type="password" id="password" name="password" required>
             <button type="submit">Sign In</button>
         </form>
