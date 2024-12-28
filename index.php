@@ -10,6 +10,21 @@
     <link rel="stylesheet" href="./css/framework.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Home</title>
+    <style>
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 512px;
+        }
+    </style>
 </head>
 
 <body>
