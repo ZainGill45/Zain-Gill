@@ -7,26 +7,6 @@
     <link rel="icon" type="image/x-icon" href="./images/icons/favicon.ico">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Home</title>
-    <style>
-        main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-
-        form {
-            display: flex;
-            flex-direction: column;
-            width: 512px;
-        }
-
-        form button {
-            width: 150px;
-            margin-inline: auto;
-        }
-    </style>
 </head>
 
 <body>
