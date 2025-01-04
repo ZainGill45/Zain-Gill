@@ -1,0 +1,54 @@
+/*#region font face declarations*/
+
+/*#region roboto regular */
+@font-face {
+    src: url(./../fonts/roboto/robotoregular.ttf);
+    font-family: roboto;
+    font-weight: 400;
+}
+@font-face {
+    src: url(./../fonts/roboto/robotoitalic.ttf);
+    font-family: roboto;
+    font-weight: 400;
+    font-style: italic;
+}
+/*#endregion roboto regular */
+
+/*#region */
+@font-face {
+    src: url(./../fonts/roboto/robotomedium.ttf);
+    font-family: roboto;
+    font-weight: 500;
+}
+@font-face {
+    src: url(./../fonts/roboto/robotomediumitalic.ttf);
+    font-family: roboto;
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    src: url(./../fonts/roboto/robotobold.ttf);
+    font-family: roboto;
+    font-weight: 600;
+}
+@font-face {
+    src: url(./../fonts/roboto/robotobolditalic.ttf);
+    font-family: roboto;
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    src: url(./../fonts/roboto/robotobolditalic.ttf);
+    font-family: roboto;
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    src: url(./../fonts/roboto/robotolight.ttf);
+    font-family: roboto;
+    font-weight: 300;
+}
+
+/*#endregion*/
