@@ -1,4 +1,35 @@
 /*#region font face declarations*/
+/*#region roboto light*/
+@font-face {
+    src: url(./../fonts/roboto/robotothin.ttf);
+    font-family: roboto;
+    font-weight: 200;
+}
+
+@font-face {
+    src: url(./../fonts/roboto/robotothinitalic.ttf);
+    font-family: roboto;
+    font-weight: 200;
+    font-style: italic;
+}
+
+/*#endregion roboto light*/
+
+/*#region roboto light*/
+@font-face {
+    src: url(./../fonts/roboto/robotolight.ttf);
+    font-family: roboto;
+    font-weight: 300;
+}
+
+@font-face {
+    src: url(./../fonts/roboto/robotolightitalic.ttf);
+    font-family: roboto;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/*#endregion roboto light*/
 
 /*#region roboto regular */
 @font-face {
@@ -6,20 +37,23 @@
     font-family: roboto;
     font-weight: 400;
 }
+
 @font-face {
     src: url(./../fonts/roboto/robotoitalic.ttf);
     font-family: roboto;
     font-weight: 400;
     font-style: italic;
 }
+
 /*#endregion roboto regular */
 
-/*#region */
+/*#region roboto medium*/
 @font-face {
     src: url(./../fonts/roboto/robotomedium.ttf);
     font-family: roboto;
     font-weight: 500;
 }
+
 @font-face {
     src: url(./../fonts/roboto/robotomediumitalic.ttf);
     font-family: roboto;
@@ -27,11 +61,15 @@
     font-style: italic;
 }
 
+/*#endregion roboto medium*/
+
+/*#region roboto bold*/
 @font-face {
     src: url(./../fonts/roboto/robotobold.ttf);
     font-family: roboto;
     font-weight: 600;
 }
+
 @font-face {
     src: url(./../fonts/roboto/robotobolditalic.ttf);
     font-family: roboto;
@@ -39,16 +77,21 @@
     font-style: italic;
 }
 
+/*#endregion roboto bold*/
+
+/*#region roboto black*/
 @font-face {
-    src: url(./../fonts/roboto/robotobolditalic.ttf);
+    src: url(./../fonts/roboto/robotoblack.ttf);
     font-family: roboto;
-    font-weight: bold;
-    font-style: italic;
-}
-@font-face {
-    src: url(./../fonts/roboto/robotolight.ttf);
-    font-family: roboto;
-    font-weight: 300;
+    font-weight: 700;
 }
 
+@font-face {
+    src: url(./../fonts/roboto/robotoblackitalic.ttf);
+    font-family: roboto;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/*#endregion roboto black*/
 /*#endregion*/
