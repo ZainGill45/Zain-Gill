@@ -176,6 +176,9 @@ textarea:not([rows]) {
 /*#endregion*/
 
 /*#region setup styles*/
+::selection {
+    background: rgba(84, 200, 255, 0.3);
+}
 
 html {
     font-size: 100%;
