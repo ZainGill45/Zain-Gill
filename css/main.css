@@ -46,10 +46,15 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.6);
     padding-inline: 3rem;
     padding-top: 1.5rem;
     padding-bottom: 2.25rem;
+}
+
+.hero-content h1 {
+    text-align: center;
+    margin-bottom: 0.4rem;
 }
 
 .hero-content p {
@@ -57,7 +62,7 @@
 }
 
 .hero-buttons {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -66,6 +71,14 @@
 .hero-buttons button {
     border-color: var(--light-text-color);
     color: var(--light-text-color);
+    border-radius: 4px;
+    border-width: 1px;
+    font-weight: 300;
+}
+
+.hero-buttons button:hover {
+    background-color: var(--light-text-color);
+    color: var(--dark-text-color);
 }
 
 /*#endregion hero section*/
