@@ -11,8 +11,17 @@
 </head>
 
 <body>
-<h1>Hi I'm Zain</h1>
-<p>I make stuff with code and try to solve problems.</p>
+<header class="hero">
+    <div class="hero-content">
+        <h1>Hi I'm Zain</h1>
+        <p>I love make stuff with code and I try my best to solve problems. I do web development, game development and
+            competitive gaming. Check out some of the stuff I've made below, or not that's okay too...</p>
+        <div class="hero-buttons">
+            <button>My Projects</button>
+            <button>Contact Me</button>
+        </div>
+    </div>
+</header>
 </body>
 
 </html>

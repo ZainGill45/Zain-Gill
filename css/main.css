@@ -12,3 +12,33 @@
     --primary-hover-color: #00C6E6;
     --primary-visited-color: #00B0CC;
 }
+
+/*#region hero section*/
+.hero {
+    width: 100vw;
+    height: 100svh;
+    background: linear-gradient(var(--primary-color), var(--accent-color));
+}
+
+.hero-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 768px;
+    margin-inline: auto;
+}
+
+.hero-content p {
+    text-align: center;
+}
+
+.hero-buttons {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+/*#endregion hero section*/
