@@ -1,13 +1,13 @@
 /*#region font face declarations*/
 /*#region roboto light*/
 @font-face {
-    src: url(./../fonts/roboto/robotothin.ttf);
+    src: url(../../Template Website/fonts/roboto/robotothin.ttf);
     font-family: roboto;
     font-weight: 200;
 }
 
 @font-face {
-    src: url(./../fonts/roboto/robotothinitalic.ttf);
+    src: url(../../Template Website/fonts/roboto/robotothinitalic.ttf);
     font-family: roboto;
     font-weight: 200;
     font-style: italic;
@@ -17,13 +17,13 @@
 
 /*#region roboto light*/
 @font-face {
-    src: url(./../fonts/roboto/robotolight.ttf);
+    src: url(../../Template Website/fonts/roboto/robotolight.ttf);
     font-family: roboto;
     font-weight: 300;
 }
 
 @font-face {
-    src: url(./../fonts/roboto/robotolightitalic.ttf);
+    src: url(../../Template Website/fonts/roboto/robotolightitalic.ttf);
     font-family: roboto;
     font-weight: 300;
     font-style: italic;
@@ -33,13 +33,13 @@
 
 /*#region roboto regular */
 @font-face {
-    src: url(./../fonts/roboto/robotoregular.ttf);
+    src: url(../../Template Website/fonts/roboto/robotoregular.ttf);
     font-family: roboto;
     font-weight: 400;
 }
 
 @font-face {
-    src: url(./../fonts/roboto/robotoitalic.ttf);
+    src: url(../../Template Website/fonts/roboto/robotoitalic.ttf);
     font-family: roboto;
     font-weight: 400;
     font-style: italic;
@@ -49,13 +49,13 @@
 
 /*#region roboto medium*/
 @font-face {
-    src: url(./../fonts/roboto/robotomedium.ttf);
+    src: url(../../Template Website/fonts/roboto/robotomedium.ttf);
     font-family: roboto;
     font-weight: 500;
 }
 
 @font-face {
-    src: url(./../fonts/roboto/robotomediumitalic.ttf);
+    src: url(../../Template Website/fonts/roboto/robotomediumitalic.ttf);
     font-family: roboto;
     font-weight: 500;
     font-style: italic;
@@ -65,13 +65,13 @@
 
 /*#region roboto bold*/
 @font-face {
-    src: url(./../fonts/roboto/robotobold.ttf);
+    src: url(../../Template Website/fonts/roboto/robotobold.ttf);
     font-family: roboto;
     font-weight: 600;
 }
 
 @font-face {
-    src: url(./../fonts/roboto/robotobolditalic.ttf);
+    src: url(../../Template Website/fonts/roboto/robotobolditalic.ttf);
     font-family: roboto;
     font-weight: 600;
     font-style: italic;
@@ -81,13 +81,13 @@
 
 /*#region roboto black*/
 @font-face {
-    src: url(./../fonts/roboto/robotoblack.ttf);
+    src: url(../../Template Website/fonts/roboto/robotoblack.ttf);
     font-family: roboto;
     font-weight: 700;
 }
 
 @font-face {
-    src: url(./../fonts/roboto/robotoblackitalic.ttf);
+    src: url(../../Template Website/fonts/roboto/robotoblackitalic.ttf);
     font-family: roboto;
     font-weight: 700;
     font-style: italic;
@@ -102,6 +102,8 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* Prevent font size inflation */
@@ -174,21 +176,95 @@ textarea:not([rows]) {
 /*#endregion*/
 
 /*#region setup styles*/
-:root {
-    --background-color: #f4f4f4;
 
-    --text-color: #222;
-    --link-color: #00dcff;
-    --link-hover-color: #00c6e6;
-    --link-visited-color: #00b0cc;
+html {
+    font-size: 100%;
+}
 
-    --primary-color: #00dcff;
-    --primary-hover-color: #00c6e6;
-    --primary-visited-color: #00b0cc;
+h1 {
+    font-size: 4.210rem;
+}
+
+h2 {
+    font-size: 3.158rem;
+}
+
+h3 {
+    font-size: 2.369rem;
+}
+
+h4 {
+    font-size: 1.777rem;
+}
+
+h5 {
+    font-size: 1.333rem;
+}
+
+small {
+    font-size: 0.750rem;
 }
 
 body {
     font-family: roboto, system-ui, sans-serif;
+}
+
+/*#endregion*/
+
+/*#region media query*/
+
+/* full size desktop break point */
+@media (max-width: 1024px) {
+}
+
+/* tablet break point */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3.053rem;
+    }
+
+    h2 {
+        font-size: 2.442rem;
+    }
+
+    h3 {
+        font-size: 1.954rem;
+    }
+
+    h4 {
+        font-size: 1.563rem;
+    }
+
+    h5 {
+        font-size: 1.250rem;
+    }
+}
+
+/* large phone break point */
+@media (max-width: 425px) {
+}
+
+/* small phone break point */
+@media (max-width: 320px) {
+    h1 {
+        font-size: 2.489rem;
+    }
+
+    h2 {
+        font-size: 2.074rem;
+    }
+
+    h3 {
+        font-size: 1.728rem;
+    }
+
+    h4 {
+        font-size: 1.440rem;
+    }
+
+    h5 {
+        font-size: 1.200rem;
+    }
 }
 
 /*#endregion*/
