@@ -177,7 +177,7 @@ textarea:not([rows]) {
 
 /*#region setup styles*/
 ::selection {
-    background: rgba(84, 200, 255, 0.3);
+    background: rgba(84, 200, 255, 0.25);
 }
 
 html {
